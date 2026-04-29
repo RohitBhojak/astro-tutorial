@@ -1,0 +1,32 @@
+---
+const github = "github";
+const githubUser = "RohitBhojak";
+
+const linkedin = "linkedin";
+const linkedinUser = "rohit-bhojak";
+---
+
+<footer>
+  <p>
+    Learn more about my projects on <a href={`https://www.${github}.com/${githubUser}`}>{github}</a
+    >!
+  </p>
+  <p>
+    Connect with me on <a href={`https://www.${linkedin}.com/in/${linkedinUser}/`}>{linkedin}</a>
+  </p>
+</footer>
+
+<style>
+  a {
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: #4c1d95;
+    text-decoration: none;
+  }
+
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
